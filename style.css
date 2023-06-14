@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:chocolate
+}
+h1,div>p,div.error2,h2,a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: aqua;
+    font-size: 5rem;
+    font-style: normal;
+    margin-top: 30px;
+}
+/* .new content{
+    color: red;
+} */
+
+.error404{
+    padding: 10px;
+    color: crimson;
+    border: 4px dotted crimson;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.success505{
+    padding: 10px;
+    color: limegreen;
+    border: 4px dotted limegreen;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 5rem;
+}
